@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/common/NumericOnly.min.js" />
+        <item url="file://$PROJECT_DIR$/js/common/utilities.min.js" />
+        <item url="file://$PROJECT_DIR$/js/common/utilities.min.min.js" />
+        <item url="file://$PROJECT_DIR$/js/main.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/bootstrap.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/jquery-1.12.4.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/jquery.ba-throttle-debounce.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/lightbox.min.js" />
+        <item url="file://$PROJECT_DIR$/js/vendor/owl.carousel.min.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/common/NumericOnly.min.js" />
+      <root url="file://$PROJECT_DIR$/js/common/utilities.min.js" />
+      <root url="file://$PROJECT_DIR$/js/common/utilities.min.min.js" />
+      <root url="file://$PROJECT_DIR$/js/main.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/bootstrap.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/jquery-1.12.4.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/jquery.ba-throttle-debounce.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/lightbox.min.js" />
+      <root url="file://$PROJECT_DIR$/js/vendor/owl.carousel.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

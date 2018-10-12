@@ -1,0 +1,211 @@
+@import 'common/common';
+
+//############ mobile ################
+.mobile-navigation {
+  position: fixed;
+  z-index: 1010;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  border-bottom: 1px solid #ededed;
+  background-color: white;
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .logo-container {
+    display: block;
+    float: left;
+    width: auto;
+    max-width: 199px;
+    height: 45px;
+    margin-top: 0;
+    margin-left: 20px;
+
+    .vertical-center3lines();
+    a {
+      display: block;
+      overflow: hidden;
+      height: 45px;
+      img {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+  .navigation-trigger {
+    display: block;
+    float: right;
+
+    .vertical-center3lines();
+    a {
+      display: inline-block;
+      vertical-align: middle;
+      &:link, &:visited {
+        color: black;
+      }
+      &:hover, &:active, &:focus {
+        color: lighten(black, 25%);
+      }
+      &:last-child {
+        margin-left: 20px;
+        i {
+          font-size: 35px;
+          line-height: 30px;
+        }
+      }
+    }
+    i {
+      margin-right: 20px;
+      font-size: 25px;
+      line-height: 55px;
+    }
+  }
+}
+
+.mobile-links-list-container {
+  position: fixed;
+  z-index: 1000;
+  top: 55px;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  background-color: white;
+  ul {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ededed;
+    li {
+      display: block;
+      padding: 0;
+      list-style: none;
+      border-bottom: 1px solid #ededed;
+      background-image: none;
+      a {
+        display: block;
+        padding: 10px 0 10px 30px;
+        text-transform: uppercase;
+        font-size: 18px;
+
+        &:link, &:visited {
+          color: black;
+        }
+        &:hover, &:focus, &:active {
+          color: black;
+          background-color: #ebebeb;
+        }
+      }
+    }
+  }
+}
+
+.pusher {
+  height: 55px;
+}
+
+//########### end mobile ##########
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.section-header{
+  text-align: center;
+  padding: 2em 0;
+}
+
+.group-wrapper{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  .person-object{
+    //max-width: 150px;
+    margin: 15px 25px;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    .person-image{
+      width: 130px;
+      height: 130px;
+      background-color: #cae5e0;
+      font-size: 55px;
+      line-height: 130px;
+      color: #fff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    h4{
+      text-align: center;
+      font-weight: bold;
+   }
+    .person-info{
+      display: flex;
+      flex-direction: column;
+      max-width: 130px;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.person-info{
+  max-height: 0px;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -ms-transition: max-height 1s;
+  -o-transition: max-height 1s;
+  transition: max-height 1s;
+  overflow: hidden;
+}
+
+.person-info.opened{
+  max-height: 500px;
+}
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+    
+    /*Ipad Landscape */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    }
+    
+    /*Ipad Portrait*/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 767px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+    
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 479px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
